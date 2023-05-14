@@ -11,7 +11,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 
 
-movies_df = pd.read_csv('D:/Project/Datasets/movies/movies.csv')
+movies_df = pd.read_csv('my.csv')
 movies_df.drop_duplicates(inplace=True, ignore_index=True)
 
 
